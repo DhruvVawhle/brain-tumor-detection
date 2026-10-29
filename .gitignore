@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables, credentials, and API keys
+.env
+.env.*
+kaggle.json
+*.pem
+*.key
+*.token
+credentials.json
+client_secrets.json
+
+# Root fallback duplicates (superseded by results/)
+/class_names.json
+/model_comparison.csv
+
+# Jupyter & Google Colab temporary files
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+Data_Science_Honours_Mini_Project.ipynb
+Brain_Tumor_Streamlit_Colab.ipynb
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit local configurations & secrets
+.streamlit/secrets.toml
+
+# Datasets and raw MRI archives (prevent accidental commits of large medical imagery)
+dataset/
+data/
+Training/
+Testing/
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.jfif
+
+# PyTorch Model Checkpoints & Large Binary Weights
+# Keep weights out of Git history to comply with GitHub size limits.
+# Use Git LFS or host weights on GitHub Releases / Hugging Face Hub (see models/README.md).
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# Allow models directory documentation
+!models/README.md
+
